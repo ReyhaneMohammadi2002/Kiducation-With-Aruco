@@ -20,6 +20,17 @@ This is an **interactive educational game** designed for children, where **techn
 
 ---
 
+## 🎥 Demo Video
+
+You can watch a short demo of the system in action here:  
+👉 [Click to watch the demo video](assets/demo.mp4)
+
+<details>
+  <summary>Or download and play locally</summary>
+
+  Right-click the link above and choose "Save link as" to download.
+</details>
+
 ## 🧠 What Makes It Special?
 
 - ✅ Encourages collaborative, in-person learning  
@@ -43,13 +54,19 @@ This is an **interactive educational game** designed for children, where **techn
 
 ## 📦 Folder Structure
 
-├── id_words.csv # Mapping of word marker IDs to actual words
-├── user_ids.csv # Mapping of ID marker IDs to child names
-├── jalaliDate.py # Utility to convert datetime to Persian calendar
-├── eitaa.py # Eitaa bot integration
-├── main.py # Main application script
 
-
+├── src/               
+│   ├── main.py # Main application script
+│   ├── eitaa.py # Eitaa bot integration
+│   ├── jalaliDate.py # Utility to convert datetime to Persian calendar
+│   ├── user_ids.csv # Mapping of ID marker IDs to child names
+│   └── id_words.csv # Mapping of word marker IDs to actual words
+├── assets/             
+│   ├── demo.mp4
+│   ├── photo18968295318.jpg
+│   ├── photo18968295383.jpg
+│   └── playground.png
+└── README.md 
 ---
 
 ## 🖼️ Sample Cards and Game Area
@@ -57,17 +74,17 @@ This is an **interactive educational game** designed for children, where **techn
 Here are examples of the components used in the game:
 
 ### 👨‍🎓 Student ID Card  
-<img src="photo18968295318.jpg" width="200"/>
+<img src="assets/photo18968295318.jpg" width="200"/>
 
 ---
 
 ### 🍎 Educational Word Card  
-<img src="photo18968295383.jpg" width="200"/>
+<img src="assets/photo18968295383.jpg" width="200"/>
 
 ---
 
 ### 🧩 Game Board (Play Area)  
-<img src="playground.png" width="400"/>
+<img src="assets/playground.png" width="400"/>
 > The board is divided into **Trainer** and **Student** zones using four ArUco markers.
 
 ---
