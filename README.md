@@ -55,19 +55,7 @@ You can watch a short demo of the system in action here:
 ## 📦 Folder Structure
 
 
-├── src/               
-│   ├── main.py # Main application script
-│   ├── eitaa.py # Eitaa bot integration
-│   ├── jalaliDate.py # Utility to convert datetime to Persian calendar
-│   ├── user_ids.csv # Mapping of ID marker IDs to child names
-│   └── id_words.csv # Mapping of word marker IDs to actual words
-├── assets/             
-│   ├── demo.mp4
-│   ├── photo18968295318.jpg
-│   ├── photo18968295383.jpg
-│   └── playground.png
-└── README.md 
----
+<pre> ```text Kiducation-With-Aruco/ ├── src/ # Source code │ ├── main.py # Main application script │ ├── eitaa.py # Eitaa bot integration │ ├── jalaliDate.py # Utility: convert datetime to Jalali calendar │ ├── user_ids.csv # Mapping of child ID markers to names │ └── id_words.csv # Mapping of word marker IDs to actual words │ ├── assets/ # Media files for documentation │ ├── demo.mp4 # Short demo video of the system │ ├── photo18968295318.jpg # Snapshot from the game │ ├── photo18968295383.jpg # Another snapshot from the game │ └── playground.png # Layout of the interactive area │ └── README.md # Project documentation ``` </pre>
 
 ## 🖼️ Sample Cards and Game Area
 
